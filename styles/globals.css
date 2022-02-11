@@ -14,3 +14,60 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.options {
+  margin-top: 30px;
+}
+
+.personalButton {
+  padding: 10px 20px;
+  background-color: 'rgba(0,0,0,0)';
+  border-radius: 5px;
+  border: 2px solid '#fafafa';
+}
+
+.btn-options {
+  text-transform: capitalize;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.circleOrange {
+  background-color: #e2a93f;
+  min-width: 7px;
+  min-height: 7px;
+  border-radius: 100%;
+}
+
+.circleBlue {
+  background-color: #3464bd;
+  min-width: 7px;
+  min-height: 7px;
+  border-radius: 100%;
+}
+
+.circleGreen {
+  background-color: #34bd56;
+  min-width: 7px;
+  min-height: 7px;
+  border-radius: 100%;
+}
+
+.btn-add-note {
+  margin-left: auto;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+@media screen and (max-device-width: 600px) {
+  .optionsContainer {
+    flex-direction: column;
+  }
+  .btn-add-note {
+    margin-left: 0;
+    width: 100%;
+  }
+}
